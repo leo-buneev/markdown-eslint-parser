@@ -1,0 +1,29 @@
+{
+  "name": "markdown-eslint-parser",
+  "version": "1.2.0",
+  "description": "The ESLint custom parser for *.md files.",
+  "keywords": [
+    "eslint",
+    "eslintparser",
+    "eslint-parser",
+    "markdown"
+  ],
+  "author": "Leonid Buneev",
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn test --watch",
+    "test": "mocha tests --reporter spec --recursive",
+    "lint": "cross-env NODE_ENV=production eslint .",
+    "lint-fix": "cross-env NODE_ENV=production eslint . --fix"
+  },
+  "dependencies": {
+    "eslint": "^6.8.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-tyrecheck": "^2.10.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
