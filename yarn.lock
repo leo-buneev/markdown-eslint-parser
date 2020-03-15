@@ -94,6 +94,11 @@
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
 
+"@types/unist@^2.0.0", "@types/unist@^2.0.2":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.3.tgz#9c088679876f374eb5983f150d4787aa6fb32d7e"
+  integrity sha512-FvUupuM3rlRsRtCN+fDudtmytGO6iHJuuRKS1Ss0pG5z8oX0diNEw94UEL7hgDbpN94rgaK5R7sWm6RrSkZuAQ==
+
 acorn-jsx@^5.0.0, acorn-jsx@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.2.0.tgz#4c66069173d6fdd68ed85239fc256226182b2ebe"
@@ -192,6 +197,11 @@ babel-eslint@^10.0.1:
     eslint-visitor-keys "^1.0.0"
     resolve "^1.12.0"
 
+bail@^1.0.0:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/bail/-/bail-1.0.5.tgz#b6fa133404a392cbc1f8c4bf63f5953351e7a776"
+  integrity sha512-xFbRxM1tahm08yHBP16MMjVUAvDaBMD38zsM9EMAUN61omwLmKlOpB/Zku5QkjZ8TZ4vn53pj+t518cH0S03RQ==
+
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
@@ -210,6 +220,11 @@ callsites@^3.0.0:
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
+ccount@^1.0.0:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/ccount/-/ccount-1.0.5.tgz#ac82a944905a65ce204eb03023157edf29425c17"
+  integrity sha512-MOli1W+nfbPLlKEhInaxhRdp7KVLFxLN5ykwzHgLsLI3H3gs5jjFAK4Eoj3OzzcxCtumDaI8onoVDeQyWaNTkw==
+
 chalk@^2.0.0, chalk@^2.1.0:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
@@ -227,6 +242,26 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
+character-entities-html4@^1.0.0:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/character-entities-html4/-/character-entities-html4-1.1.4.tgz#0e64b0a3753ddbf1fdc044c5fd01d0199a02e125"
+  integrity sha512-HRcDxZuZqMx3/a+qrzxdBKBPUpxWEq9xw2OPZ3a/174ihfrQKVsFhqtthBInFy1zZ9GgZyFXOatNujm8M+El3g==
+
+character-entities-legacy@^1.0.0:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/character-entities-legacy/-/character-entities-legacy-1.1.4.tgz#94bc1845dce70a5bb9d2ecc748725661293d8fc1"
+  integrity sha512-3Xnr+7ZFS1uxeiUDvV02wQ+QDbc55o97tIV5zHScSPJpcLm/r0DFPcoY3tYRp+VZukxuMeKgXYmsXQHO05zQeA==
+
+character-entities@^1.0.0:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/character-entities/-/character-entities-1.2.4.tgz#e12c3939b7eaf4e5b15e7ad4c5e28e1d48c5b16b"
+  integrity sha512-iBMyeEHxfVnIakwOuDXpVkc54HijNgCyQB2w0VfGQThle6NXn50zU6V/u+LDhxHcDUPojn6Kpga3PTAD8W1bQw==
+
+character-reference-invalid@^1.0.0:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/character-reference-invalid/-/character-reference-invalid-1.1.4.tgz#083329cda0eae272ab3dbbf37e9a382c13af1560"
+  integrity sha512-mKKUkUbhPpQlCOfIuZkvSEgktjPFIsZKRRbC6KWVEMvlzblj3i3asQv5ODsrwt0N3pHAEvjP8KTQPHkp0+6jOg==
+
 chardet@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
@@ -243,6 +278,16 @@ cli-width@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/cli-width/-/cli-width-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
   integrity sha1-/xnt6Kml5XkyQUewwR8PvLq+1jk=
+
+co@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/co/-/co-3.1.0.tgz#4ea54ea5a08938153185e15210c68d9092bc1b78"
+  integrity sha1-TqVOpaCJOBUxheFSEMaNkJK8G3g=
+
+collapse-white-space@^1.0.2:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/collapse-white-space/-/collapse-white-space-1.0.6.tgz#e63629c0016665792060dbbeb79c42239d2c5287"
+  integrity sha512-jEovNnrhMuqyCcjfEJA56v0Xq8SkIoPKDyaHahwo3POf4qcSXqMYuwNcOTzp74vTsR9Tn08z4MxWqAhcekogkQ==
 
 color-convert@^1.9.0:
   version "1.9.3"
@@ -278,6 +323,13 @@ contains-path@^0.1.0:
   resolved "https://registry.yarnpkg.com/contains-path/-/contains-path-0.1.0.tgz#fe8cf184ff6670b6baef01a9d4861a5cbec4120a"
   integrity sha1-/ozxhP9mcLa67wGp1IYaXL7EEgo=
 
+cross-env@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-7.0.2.tgz#bd5ed31339a93a3418ac4f3ca9ca3403082ae5f9"
+  integrity sha512-KZP/bMEOJEDCkDQAyRhu3RL2ZO/SUVrxQVI0G3YEQ+OLbRA3c6zgixe8Mq8a/z7+HKlNEjo8oiLUs8iRijY2Rw==
+  dependencies:
+    cross-spawn "^7.0.1"
+
 cross-spawn@^6.0.5:
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-6.0.5.tgz#4a5ec7c64dfae22c3a14124dbacdee846d80cbc4"
@@ -288,6 +340,15 @@ cross-spawn@^6.0.5:
     semver "^5.5.0"
     shebang-command "^1.2.0"
     which "^1.2.9"
+
+cross-spawn@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.1.tgz#0ab56286e0f7c24e153d04cc2aa027e43a9a5d14"
+  integrity sha512-u7v4o84SwFpD32Z8IIcPZ6z1/ie24O6RU3RbtL5Y316l3KuHVPx9ItBgWQ6VlfAFnRnTtMUrsQ9MUUTuEZjogg==
+  dependencies:
+    path-key "^3.1.0"
+    shebang-command "^2.0.0"
+    which "^2.0.1"
 
 debug@^2.6.9:
   version "2.6.9"
@@ -482,6 +543,19 @@ eslint-plugin-import@^2.16.0:
     read-pkg-up "^2.0.0"
     resolve "^1.12.0"
 
+eslint-plugin-md@^1.0.4:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-md/-/eslint-plugin-md-1.0.5.tgz#78bffa5f69b4888d4f119fb7c10c0e93a35fb4fa"
+  integrity sha512-vbacRrp/NYi8OSj9Z+khtVX+ItTrFTLHi5gYDFSdBSq18rSUBIiBrWQHi6pYbwm11/9Led0hVrf8V5Re671y/g==
+  dependencies:
+    lodash "^4.17.15"
+    markdown-eslint-parser "^1.2.0"
+    prettier-linter-helpers "^1.0.0"
+    remark "^11.0.2"
+    remark-frontmatter "^1.3.2"
+    remark-preset-lint-markdown-style-guide "^2.1.3"
+    requireindex "~1.1.0"
+
 eslint-plugin-node@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-8.0.1.tgz#55ae3560022863d141fa7a11799532340a685964"
@@ -511,10 +585,10 @@ eslint-plugin-standard@^4.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-4.0.1.tgz#ff0519f7ffaff114f76d1bd7c3996eef0f6e20b4"
   integrity sha512-v/KBnfyaOMPmZc/dmc6ozOdWqekGp7bBGq4jLAecEfPGmfKiWS4sA8sC0LqiV9w5qmXAtXVn4M3p1jSyhY85SQ==
 
-eslint-plugin-tyrecheck@^2.10.0:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-tyrecheck/-/eslint-plugin-tyrecheck-2.10.0.tgz#6e10fdd080b9e907701ed6e67c83646235c6e502"
-  integrity sha512-pz6yUsTnY1ryZvnPon4Tei1yhCHBF8wkIg3jw38rhPK1SCwlJRy32bAhHaDWvzvighlePO5fUuOOR4gPW3qLEQ==
+eslint-plugin-tyrecheck@^2.10.2:
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-tyrecheck/-/eslint-plugin-tyrecheck-2.10.2.tgz#8344ed1cddf1942ccd6f09a32a5c36919af3d21d"
+  integrity sha512-BOcDK69jBv50modP+QhnLTBtIULT+dGUZkUpaQRVp2s5d7Hd8G3HRbGrDwk1YwKWW4GaOeVMKVPonYUu3RqvPA==
   dependencies:
     babel-eslint "^10.0.1"
     eslint "^6.8.0"
@@ -523,6 +597,7 @@ eslint-plugin-tyrecheck@^2.10.0:
     eslint-module-utils "^2.4.0"
     eslint-plugin-html "^6.0.0"
     eslint-plugin-import "^2.16.0"
+    eslint-plugin-md "^1.0.4"
     eslint-plugin-node "^8.0.1"
     eslint-plugin-prettier "^3.0.1"
     eslint-plugin-promise "^4.0.1"
@@ -657,6 +732,11 @@ esutils@^2.0.2:
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
 
+extend@^3.0.0:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
+  integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
+
 external-editor@^3.0.3:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/external-editor/-/external-editor-3.1.0.tgz#cb03f740befae03ea4d283caed2741a83f335495"
@@ -685,6 +765,13 @@ fast-levenshtein@~2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
+
+fault@^1.0.1:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/fault/-/fault-1.0.4.tgz#eafcfc0a6d214fc94601e170df29954a4f842f13"
+  integrity sha512-CJ0HCB5tL5fYTEA7ToAq5+kTwd++Borf1/bifxd9iT70QcXr4MRrO3Llf8Ifs70q+SJcGHFtnIE/Nw6giCtECA==
+  dependencies:
+    format "^0.2.0"
 
 figures@^3.0.0:
   version "3.2.0"
@@ -720,6 +807,11 @@ flatted@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.1.tgz#69e57caa8f0eacbc281d2e2cb458d46fdb449e08"
   integrity sha512-a1hQMktqW9Nmqr5aktAux3JMNqaucxGcjtjWnZLHX7yyPCmlSV3M54nGYbqT8K+0GhF3NBgmJCc3ma+WOgX8Jg==
+
+format@^0.2.0:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/format/-/format-0.2.2.tgz#d6170107e9efdc4ed30c9dc39016df942b5cb58b"
+  integrity sha1-1hcBB+nv3E7TDJ3DkBbflCtctYs=
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -854,7 +946,7 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@^2.0.1, inherits@^2.0.3:
+inherits@2, inherits@^2.0.0, inherits@^2.0.1, inherits@^2.0.3:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
@@ -878,10 +970,38 @@ inquirer@^7.0.0:
     strip-ansi "^6.0.0"
     through "^2.3.6"
 
+irregular-plurals@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/irregular-plurals/-/irregular-plurals-2.0.0.tgz#39d40f05b00f656d0b7fa471230dd3b714af2872"
+  integrity sha512-Y75zBYLkh0lJ9qxeHlMjQ7bSbyiSqNW/UOPWDmzC7cXskL1hekSITh1Oc6JV0XCWWZ9DE8VYSB71xocLk3gmGw==
+
+is-alphabetical@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/is-alphabetical/-/is-alphabetical-1.0.4.tgz#9e7d6b94916be22153745d184c298cbf986a686d"
+  integrity sha512-DwzsA04LQ10FHTZuL0/grVDk4rFoVH1pjAToYwBrHSxcrBIGQuXrQMtD5U1b0U2XVgKZCTLLP8u2Qxqhy3l2Vg==
+
+is-alphanumeric@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-alphanumeric/-/is-alphanumeric-1.0.0.tgz#4a9cef71daf4c001c1d81d63d140cf53fd6889f4"
+  integrity sha1-Spzvcdr0wAHB2B1j0UDPU/1oifQ=
+
+is-alphanumerical@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/is-alphanumerical/-/is-alphanumerical-1.0.4.tgz#7eb9a2431f855f6b1ef1a78e326df515696c4dbf"
+  integrity sha512-UzoZUr+XfVz3t3v4KyGEniVL9BDRoQtY7tOyrRybkVNjDFWyo1yhXNGrrBTQxp3ib9BLAWs7k2YKBQsFRkZG9A==
+  dependencies:
+    is-alphabetical "^1.0.0"
+    is-decimal "^1.0.0"
+
 is-arrayish@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/is-arrayish/-/is-arrayish-0.2.1.tgz#77c99840527aa8ecb1a8ba697b80645a7a926a9d"
   integrity sha1-d8mYQFJ6qOyxqLppe4BkWnqSap0=
+
+is-buffer@^2.0.0:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-2.0.4.tgz#3e572f23c8411a5cfd9557c849e3665e0b290623"
+  integrity sha512-Kq1rokWXOPXWuaMAqZiJW4XxsmD9zGx9q4aePabbn3qCRGedtH7Cm+zV8WETitMfu1wdh+Rvd6w5egwSngUX2A==
 
 is-callable@^1.1.4, is-callable@^1.1.5:
   version "1.1.5"
@@ -892,6 +1012,11 @@ is-date-object@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/is-date-object/-/is-date-object-1.0.2.tgz#bda736f2cd8fd06d32844e7743bfa7494c3bfd7e"
   integrity sha512-USlDT524woQ08aoZFzh3/Z6ch9Y/EWXEHQ/AaRN0SkKq4t2Jw2R2339tSXmwuVoY7LLlBCbOIlx2myP/L5zk0g==
+
+is-decimal@^1.0.0, is-decimal@^1.0.2:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/is-decimal/-/is-decimal-1.0.4.tgz#65a3a5958a1c5b63a706e1b333d7cd9f630d3fa5"
+  integrity sha512-RGdriMmQQvZ2aqaQq3awNA6dCGtKpiDFcOzrTWrDAT2MiWrKQVPmxLGHl7Y2nNu6led0kEyoX0enY0qXYsv9zw==
 
 is-extglob@^2.1.1:
   version "2.1.1"
@@ -914,6 +1039,16 @@ is-glob@^4.0.0, is-glob@^4.0.1:
   integrity sha512-5G0tKtBTFImOqDnLB2hG6Bp2qcKEFduo4tZu9MT/H6NQv/ghhy30o55ufafxJ/LdH79LLs2Kfrn85TLKyA7BUg==
   dependencies:
     is-extglob "^2.1.1"
+
+is-hexadecimal@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/is-hexadecimal/-/is-hexadecimal-1.0.4.tgz#cc35c97588da4bd49a8eedd6bc4082d44dcb23a7"
+  integrity sha512-gyPJuv83bHMpocVYoqof5VDiZveEoGoFL8m3BXNb2VW8Xs+rz9kqO8LOQ5DH6EsuvilT1ApazU0pyl+ytbPtlw==
+
+is-plain-obj@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/is-plain-obj/-/is-plain-obj-2.1.0.tgz#45e42e37fccf1f40da8e5f76ee21515840c09287"
+  integrity sha512-YWnfyRwxL/+SsrWYfOpUtz5b3YD+nyfkHvjbcanzk8zgyO4ASD67uVMRt8k5bM4lLMDnXfriRhOpemw+NfT1eA==
 
 is-promise@^2.1.0:
   version "2.1.0"
@@ -938,6 +1073,16 @@ is-symbol@^1.0.2:
   integrity sha512-OwijhaRSgqvhm/0ZdAcXNZt9lYdKFpcRDT5ULUuYXPoT794UNOdU+gpT6Rzo7b4V2HUl/op6GqY894AZwv9faQ==
   dependencies:
     has-symbols "^1.0.1"
+
+is-whitespace-character@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/is-whitespace-character/-/is-whitespace-character-1.0.4.tgz#0858edd94a95594c7c9dd0b5c174ec6e45ee4aa7"
+  integrity sha512-SDweEzfIZM0SJV0EUga669UTKlmL0Pq8Lno0QDQsPnvECB3IM2aP0gdx5TrU0A01MAPfViaZiI2V1QMZLaKK5w==
+
+is-word-character@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/is-word-character/-/is-word-character-1.0.4.tgz#ce0e73216f98599060592f62ff31354ddbeb0230"
+  integrity sha512-5SMO8RVennx3nZrqtKwCGyyetPE9VDba5ugvKLaD4KopPG5kR4mQ7tNt/r7feL5yt5h3lpuBbIUmCOG2eSzXHA==
 
 isarray@^1.0.0:
   version "1.0.0"
@@ -1007,6 +1152,50 @@ lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+
+longest-streak@^2.0.1:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/longest-streak/-/longest-streak-2.0.4.tgz#b8599957da5b5dab64dee3fe316fa774597d90e4"
+  integrity sha512-vM6rUVCVUJJt33bnmHiZEvr7wPT78ztX7rojL+LW51bHtLh6HTjx84LA5W4+oa6aKEJA7jJu5LR6vQRBpA5DVg==
+
+markdown-escapes@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/markdown-escapes/-/markdown-escapes-1.0.4.tgz#c95415ef451499d7602b91095f3c8e8975f78535"
+  integrity sha512-8z4efJYk43E0upd0NbVXwgSTQs6cT3T06etieCMEg7dRbzCbxUCK/GHlX8mhHRDcp+OLlHkPKsvqQTCvsRl2cg==
+
+markdown-eslint-parser@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/markdown-eslint-parser/-/markdown-eslint-parser-1.2.0.tgz#bf4ec7180bfbdfe50ace931cfc61983f86faaa9a"
+  integrity sha512-AVIbk8YOY4OrsHf/MiFaiXfmmvTla/ogL1wjof0zsyEdKouUOouh54qH8ru0tSMdUCj9km2KMrmvPiCGYA+EFg==
+  dependencies:
+    eslint "^6.8.0"
+
+markdown-table@^1.1.0:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-1.1.3.tgz#9fcb69bcfdb8717bfd0398c6ec2d93036ef8de60"
+  integrity sha512-1RUZVgQlpJSPWYbFSpmudq5nHY1doEIv89gBtF0s4gW1GF2XorxcA/70M5vq7rLv0a6mhOUccRsqkwhwLCIQ2Q==
+
+mdast-comment-marker@^1.0.0:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/mdast-comment-marker/-/mdast-comment-marker-1.1.2.tgz#5ad2e42cfcc41b92a10c1421a98c288d7b447a6d"
+  integrity sha512-vTFXtmbbF3rgnTh3Zl3irso4LtvwUq/jaDvT2D1JqTGAwaipcS7RpTxzi6KjoRqI9n2yuAhzLDAC8xVTF3XYVQ==
+
+mdast-util-compact@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/mdast-util-compact/-/mdast-util-compact-1.0.4.tgz#d531bb7667b5123abf20859be086c4d06c894593"
+  integrity sha512-3YDMQHI5vRiS2uygEFYaqckibpJtKq5Sj2c8JioeOQBU6INpKbdWzfyLqFFnDwEcEnRFIdMsguzs5pC1Jp4Isg==
+  dependencies:
+    unist-util-visit "^1.1.0"
+
+mdast-util-heading-style@^1.0.2:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/mdast-util-heading-style/-/mdast-util-heading-style-1.0.6.tgz#6410418926fd5673d40f519406b35d17da10e3c5"
+  integrity sha512-8ZuuegRqS0KESgjAGW8zTx4tJ3VNIiIaGFNEzFpRSAQBavVc7AvOo9I4g3crcZBfYisHs4seYh0rAVimO6HyOw==
+
+mdast-util-to-string@^1.0.2:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/mdast-util-to-string/-/mdast-util-to-string-1.1.0.tgz#27055500103f51637bd07d01da01eb1967a43527"
+  integrity sha512-jVU0Nr2B9X3MU4tSK7JP1CMkSvOj7X5l/GboG1tKRw52lLF1x2Ju92Ms9tNetCcbfX3hzlM73zYo2NKkWSfF/A==
 
 mimic-fn@^2.1.0:
   version "2.1.0"
@@ -1154,6 +1343,18 @@ parent-module@^1.0.0:
   dependencies:
     callsites "^3.0.0"
 
+parse-entities@^1.0.2, parse-entities@^1.1.0:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/parse-entities/-/parse-entities-1.2.2.tgz#c31bf0f653b6661354f8973559cb86dd1d5edf50"
+  integrity sha512-NzfpbxW/NPrzZ/yYSoQxyqUZMZXIdCfE0OIN4ESsnptHJECoUk3FZktxNuzQf4tjt5UEopnxpYJbvYuxIFDdsg==
+  dependencies:
+    character-entities "^1.0.0"
+    character-entities-legacy "^1.0.0"
+    character-reference-invalid "^1.0.0"
+    is-alphanumerical "^1.0.0"
+    is-decimal "^1.0.0"
+    is-hexadecimal "^1.0.0"
+
 parse-json@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-2.2.0.tgz#f480f40434ef80741f8469099f8dea18f55a4dc9"
@@ -1175,6 +1376,11 @@ path-key@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
+
+path-key@^3.1.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/path-key/-/path-key-3.1.1.tgz#581f6ade658cbba65a0d3380de7753295054f375"
+  integrity sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
 
 path-parse@^1.0.6:
   version "1.0.6"
@@ -1199,6 +1405,13 @@ pkg-dir@^2.0.0:
   integrity sha1-9tXREJ4Z1j7fQo4L1X4Sd3YVM0s=
   dependencies:
     find-up "^2.1.0"
+
+plur@^3.0.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/plur/-/plur-3.1.1.tgz#60267967866a8d811504fe58f2faaba237546a5b"
+  integrity sha512-t1Ax8KUvV3FFII8ltczPn2tJdjqbd1sIzu6t4JL7nQ3EyeL/lTrj5PWKb06ic5/6XYDr65rQ4uzQEGN70/6X5w==
+  dependencies:
+    irregular-plurals "^2.0.0"
 
 prelude-ls@~1.1.2:
   version "1.1.2"
@@ -1257,6 +1470,570 @@ regexpp@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-2.0.1.tgz#8d19d31cf632482b589049f8281f93dbcba4d07f"
   integrity sha512-lv0M6+TkDVniA3aD1Eg0DVpfU/booSu7Eev3TDO/mZKHBfVjgCGTV4t4buppESEYDtkArYFOxTJWv6S5C+iaNw==
+
+remark-frontmatter@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/remark-frontmatter/-/remark-frontmatter-1.3.2.tgz#91d9684319cd1b96cc3d9d901f10a978f39c752d"
+  integrity sha512-2eayxITZ8rezsXdgcXnYB3iLivohm2V/ZT4Ne8uhua6A4pk6GdLE2ZzJnbnINtD1HRLaTdB7RwF9sgUbMptJZA==
+  dependencies:
+    fault "^1.0.1"
+    xtend "^4.0.1"
+
+remark-lint-blockquote-indentation@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-blockquote-indentation/-/remark-lint-blockquote-indentation-1.0.3.tgz#9c35235dd0e904ad6c085e9f66d94b3f13968d1f"
+  integrity sha512-qK4C1l2VmeOVWEAkDYP0CaDtSFoaEBEo5l4oyz1kTkY7YB0Jh7llW2KjuhJz5IzMLmloKJzIyGwlu/odcwaHpg==
+  dependencies:
+    mdast-util-to-string "^1.0.2"
+    plur "^3.0.0"
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-code-block-style@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-code-block-style/-/remark-lint-code-block-style-1.0.3.tgz#236d8a5558041decf2b275e9d9eb5868950375ec"
+  integrity sha512-DL+rudnd9ILP5YXm74tLpMzfWZLqziX7NwIwUhqRefaOyWwxgPPy7hbT59FJqcFc6E/zvDz+Oq4nR1BSV5kEdw==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-definition-case@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/remark-lint-definition-case/-/remark-lint-definition-case-1.0.4.tgz#54d2a112794f1a070a5e8aa7c8090e8ae9aa3e11"
+  integrity sha512-ebl8vYOab9iy1Mr29Wo/9CmqcYGRjCfBievIZts08efrxIElWz+jB8/n7C17fh8k0djiiS/Of6W+bfRD+kMXLA==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.4.0"
+
+remark-lint-definition-spacing@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/remark-lint-definition-spacing/-/remark-lint-definition-spacing-1.0.4.tgz#c322ff110c168449d8217773a23352c4174ffeba"
+  integrity sha512-UderghITmru72OXB5ErCFhVsY7up2wK/m1bUD3E2dm/TFn73/7WpykENt5UirCDT/aeyoHYl8QXUVL20rAc3XQ==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.4.0"
+
+remark-lint-emphasis-marker@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-emphasis-marker/-/remark-lint-emphasis-marker-1.0.3.tgz#6dc4e7df13e5092c1222110f826f68b4b3920550"
+  integrity sha512-ea2tEVyhZvYxwj6AHsW2qzgEDLljcnzq5taZ3FJFL0KMZYZHfWaIU90H43jrW4seGEtmaP1bmoqJaTavJ2x5Jw==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-fenced-code-flag@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-fenced-code-flag/-/remark-lint-fenced-code-flag-1.0.3.tgz#349caf7c6dd153d0b6ffb57cbcc67c8277569d2a"
+  integrity sha512-X8Oi6dhfqV9NI3cVg29myvT/NATDHVgRGCpnNz76w7VXwzhBvQtJr1MxZzuPxfWLox+ARCXF2rY9n9hbYFHYTg==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-fenced-code-marker@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-fenced-code-marker/-/remark-lint-fenced-code-marker-1.0.3.tgz#9df1d16d535856f41b3c17a7d309385475cbec04"
+  integrity sha512-JKnojSQ8JkwpIpbNm6wtKEfx8iiv8QIwNHFM06iTCHExMhXa4pJ3wb5M5f0wsWNHtoND3lrw6AcVPoZxEPnflg==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-file-extension@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-file-extension/-/remark-lint-file-extension-1.0.3.tgz#a7fc78fbf041e513c618b2cca0f2160ee37daa13"
+  integrity sha512-P5gzsxKmuAVPN7Kq1W0f8Ss0cFKfu+OlezYJWXf+5qOa+9Y5GqHEUOobPnsmNFZrVMiM7JoqJN2C9ZjrUx3N6Q==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+
+remark-lint-final-definition@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-final-definition/-/remark-lint-final-definition-1.0.3.tgz#4fd7bbf5a028f6e32645460965099689485508ae"
+  integrity sha512-QhbBYy99enfQDeUTElioCHrhgg+SgjMNRlru7/JlOguOufP6wn7AXgn2EVTrLZRoByY0VsNS2jCayXxUTzQ8KA==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-hard-break-spaces@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/remark-lint-hard-break-spaces/-/remark-lint-hard-break-spaces-1.0.4.tgz#200e1dae849a6bc2f8fdb3b843faf23c70942530"
+  integrity sha512-YM82UpgliZCZhGNmFxEe7ArfhqR5CplFf2bc0k0+8w3rKWKx7EJcGMar2NK410tIi40gGeWtH/pIEypPJFCCiA==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-heading-increment@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-heading-increment/-/remark-lint-heading-increment-1.0.3.tgz#44ca296b50e182c2c4a59604b8026911be3977de"
+  integrity sha512-/KL4/7D2pNxP07KKgktjcIUS+ga8pYI2k9Q/V91pMfyfSC+RYuCGOLFVJSKV0Affr/4Eqnfhw+gJ9X2HAanNuw==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-heading-style@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-heading-style/-/remark-lint-heading-style-1.0.3.tgz#de7377996cb9c7e501ec1ba7b7767709a68b824b"
+  integrity sha512-ZUhMav0HHUxo5gzLqxQsOf2ZpP/I3m6EEK8q25/kqpCYnwm1uRJ5CQ40PDQx46pmKtVibIMzDmraYovxNG3ovw==
+  dependencies:
+    mdast-util-heading-style "^1.0.2"
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-link-title-style@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/remark-lint-link-title-style/-/remark-lint-link-title-style-1.0.4.tgz#eaca24b6eb1ee62b66a237ea54e532ed2aaaafec"
+  integrity sha512-61/uH3zDTiozLJqgxp6rHGnVKTChC3UjL3Q0KQDBpprEOL4qLYjTn4fFKscVz776d0uUX6jczrW+GT4AFVOUgg==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+    vfile-location "^2.0.1"
+
+remark-lint-list-item-content-indent@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-list-item-content-indent/-/remark-lint-list-item-content-indent-1.0.3.tgz#e62012ef361fedaca42a764b8389023df4212eca"
+  integrity sha512-ZSIGJG2/6jd1xj/xEoDlkcJBf2Ksw8U6vIGJO0IFIA3BLCbJm2EMWJxto2cfzRvXoACmAaxTJMqW8qatPExa4w==
+  dependencies:
+    plur "^3.0.0"
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-list-item-indent@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/remark-lint-list-item-indent/-/remark-lint-list-item-indent-1.0.4.tgz#7a1ef6283f9a928f4940e02ec37099935f2783e6"
+  integrity sha512-Sv0gVH6qP1/nFpbJuyyguB9sAD2o42StD2WbEZeUcEexXwRO4u/YaX0Pm5pMtCiEHyN+qyL6ShKBQMtgol9BeA==
+  dependencies:
+    plur "^3.0.0"
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-list-item-spacing@^1.0.0:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-list-item-spacing/-/remark-lint-list-item-spacing-1.1.3.tgz#5989bd2450fb4bbd5e8f8007887dc5ca56ad2e5f"
+  integrity sha512-QzDY0Qfk6m+Az0kmxP57OfswIH1WRdd6SIpQLaUEgsTlsbrJOiO0sJYkkOlFPsyJIfp7SV/FCbr+aYCbHF+kRQ==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-maximum-heading-length@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-maximum-heading-length/-/remark-lint-maximum-heading-length-1.0.3.tgz#e235190e9991567254f9ce1104e15dad8e332b13"
+  integrity sha512-ybcDpR5VHBjtjzdry7AdSjLFwslPo6rdhIJK2+WfHgfeEjIYnlz1uMvp1Z98QMmjpB5JSN83Kzg5fH8/B7poUw==
+  dependencies:
+    mdast-util-to-string "^1.0.2"
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-maximum-line-length@^1.0.0:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/remark-lint-maximum-line-length/-/remark-lint-maximum-line-length-1.2.1.tgz#1030991d9af3c935731168a0a12ecb1db2d2b2b6"
+  integrity sha512-CSxX1qc+rAqixk8eBrI+yBsUmD8YGfOezFeJWjJRuUaoOvs67oqCIU+I2HbwcUYY8/KnDxF1MCp+uCM0RkjKKw==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.4.0"
+
+remark-lint-no-auto-link-without-protocol@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-auto-link-without-protocol/-/remark-lint-no-auto-link-without-protocol-1.0.3.tgz#f97aed92af24e6c07023a7a7dc2c147f7eb7927f"
+  integrity sha512-k+hg2mXnO4Q9WV+UShPLen5oThvFxcRVWkx2hviVd/nu3eiszBKH3o38csBwjeJoMG3l2ZhdUW8dlOBhq8670Q==
+  dependencies:
+    mdast-util-to-string "^1.0.2"
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-no-blockquote-without-marker@^2.0.0:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-blockquote-without-marker/-/remark-lint-no-blockquote-without-marker-2.0.3.tgz#7eb431fcb742412e3bc66faa7f58531245ad952f"
+  integrity sha512-faDzKrA6aKidsRXG6gcIlCO8TexLxIxe+n9B3mdnl8mhZGgE0FfWTkIWVMj0IYps/xVsVMf45KxhXgc1wU9kwg==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+    vfile-location "^2.0.1"
+
+remark-lint-no-consecutive-blank-lines@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-consecutive-blank-lines/-/remark-lint-no-consecutive-blank-lines-1.0.3.tgz#4fa3b2cf2939c978a3fe7978f726f6142e7dd567"
+  integrity sha512-2Ef7fPxrfLditA7sTo2Qfqd+xwh/luWl8GzILE5vcWIxLDqKk3dTLJkB5nP+7Cr4kqWJAwXnRkEDd77ehrRV3A==
+  dependencies:
+    plur "^3.0.0"
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-no-duplicate-headings@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-duplicate-headings/-/remark-lint-no-duplicate-headings-1.0.4.tgz#52ac1479b6de83d5607b8d07e8ef3401d5078424"
+  integrity sha512-QuPw+VG502Ctpd/jBjnBYuRXTg0ToP3D+dd3TYds4TRcdgaEFYTZfQ5zjK6XrxLMg0Hn9/WpXr4UqTlV4YZupA==
+  dependencies:
+    mdast-util-to-string "^1.0.2"
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-stringify-position "^2.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-no-emphasis-as-heading@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-emphasis-as-heading/-/remark-lint-no-emphasis-as-heading-1.0.3.tgz#9d837d4c5635a784ef0e983cfb402da15672050d"
+  integrity sha512-HEmyeyKciUz95+CgpAH98RPR73jq5u5CZb2FOMSqgNl9B6FZXqVpq9F3txPqUw3nAqFYOAEnfiaoRgcqtioh0Q==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-no-file-name-articles@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-file-name-articles/-/remark-lint-no-file-name-articles-1.0.3.tgz#c712d06a24e24b0c4c3666cf3084a0052a2c2c17"
+  integrity sha512-YZDJDKUWZEmhrO6tHB0u0K0K2qJKxyg/kryr14OaRMvWLS62RgMn97sXPZ38XOSN7mOcCnl0k7/bClghJXx0sg==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+
+remark-lint-no-file-name-consecutive-dashes@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-file-name-consecutive-dashes/-/remark-lint-no-file-name-consecutive-dashes-1.0.3.tgz#6a96ddf60e18dcdb004533733f3ccbfd8ab076ae"
+  integrity sha512-7f4vyXn/ca5lAguWWC3eu5hi8oZ7etX7aQlnTSgQZeslnJCbVJm6V6prFJKAzrqbBzMicUXr5pZLBDoXyTvHHw==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+
+remark-lint-no-file-name-irregular-characters@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-file-name-irregular-characters/-/remark-lint-no-file-name-irregular-characters-1.0.3.tgz#6dcd8b51e00e10094585918cb8e7fc999df776c3"
+  integrity sha512-b4xIy1Yi8qZpM2vnMN+6gEujagPGxUBAs1judv6xJQngkl5d5zT8VQZsYsTGHku4NWHjjh3b7vK5mr0/yp4JSg==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+
+remark-lint-no-file-name-mixed-case@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-file-name-mixed-case/-/remark-lint-no-file-name-mixed-case-1.0.3.tgz#0ebe5eedd0191507d27ad6ac5eed1778cb33c2de"
+  integrity sha512-d7rJ4c8CzDbEbGafw2lllOY8k7pvnsO77t8cV4PHFylwQ3hmCdTHLuDvK87G3DaWCeKclp0PMyamfOgJWKMkPA==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+
+remark-lint-no-file-name-outer-dashes@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-file-name-outer-dashes/-/remark-lint-no-file-name-outer-dashes-1.0.4.tgz#c6e22a5cc64df4e12fc31712a927e8039854a666"
+  integrity sha512-+bZvvme2Bm3Vp5L2iKuvGHYVmHKrTkkRt8JqJPGepuhvBvT4Q7+CgfKyMtC/hIjyl+IcuJQ2H0qPRzdicjy1wQ==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+
+remark-lint-no-heading-punctuation@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-heading-punctuation/-/remark-lint-no-heading-punctuation-1.0.3.tgz#7357b0b6e668bb6b32338fe280cde9fe4388b547"
+  integrity sha512-JQD05RjLS99ePBQ4Bed1uWsQTlIMBTcGgIgF6jFXSCEqhwnrIUDwk6S3MG1RZsKd3TLw2xuT/i+POpfBc2+1kQ==
+  dependencies:
+    mdast-util-to-string "^1.0.2"
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-no-inline-padding@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-inline-padding/-/remark-lint-no-inline-padding-1.0.4.tgz#eedb4ca2691d30f3f05b4e5e33967bd64a34daa4"
+  integrity sha512-u5rgbDkcfVv645YxxOwoGBBJbsHEwWm/XqnO8EhfKTxkfKOF4ZItG7Ajhj89EDaeXMkvCcB/avBl4bj50eJH3g==
+  dependencies:
+    mdast-util-to-string "^1.0.2"
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-visit "^1.4.0"
+
+remark-lint-no-literal-urls@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-literal-urls/-/remark-lint-no-literal-urls-1.0.3.tgz#1b5374e416d1b595ee1902587dc37f34c0d6244a"
+  integrity sha512-H5quyMzl2kaewK+jYD1FI0G1SIinIsIp4DEyOUwIR+vYUoKwo0B4vvW0cmPpD1dgqqxHYx0B2B0JQQKFVWzGiw==
+  dependencies:
+    mdast-util-to-string "^1.0.2"
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-no-multiple-toplevel-headings@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-multiple-toplevel-headings/-/remark-lint-no-multiple-toplevel-headings-1.0.4.tgz#0cfd8575e5576d7678802eac56fda894afee3817"
+  integrity sha512-0wDddx6htN5sL9/rofesiQF0oEgwN5224UmueiDx0ZUlYrn6VS0/SS0X3WWxtXmyeqlExfWF3D/g89tNs7dcjw==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-stringify-position "^2.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-no-shell-dollars@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-shell-dollars/-/remark-lint-no-shell-dollars-1.0.3.tgz#07e99fc3843c665440f9a1d894ee518b2ad23958"
+  integrity sha512-fT3lQMTjEkPryL+63qDP1NfrohP3tG5i3SkNWSSR4VLU6OSsSSXlHGQGjo0ag//+EPKHB5/9frB/YQ0gDEPRGQ==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-no-shortcut-reference-image@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-shortcut-reference-image/-/remark-lint-no-shortcut-reference-image-1.0.3.tgz#ab4fa15fd8aff251cb8db1f3aed4853e293aff41"
+  integrity sha512-CGm27X54kXp/5ehXejDTsZjqzK4uIhLGcrFzN3k/KjdwunQouEY92AARGrLSEuJ1hQx0bJsmnvr/hvQyWAfNJg==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-no-shortcut-reference-link@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-shortcut-reference-link/-/remark-lint-no-shortcut-reference-link-1.0.4.tgz#92af34b939c0341eacdb2fc2ede855f742dc1779"
+  integrity sha512-FXdMJYqspZBhPlxYqfVgVluVXjxStg0RHJzqrk8G9wS8fCS62AE3reoaoiCahwoH1tfKcA+poktbKqDAmZo7Jg==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-no-table-indentation@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-table-indentation/-/remark-lint-no-table-indentation-1.0.4.tgz#6681a26198ee86c4fbbba382a42254125bc5807b"
+  integrity sha512-H4VGHcg1k8sTIbwazFYLNbDqpPR+M0aHHKDf+93b/xyd27Dp0ODQrMnQbls1Cls5qOAQnwAQbx+75wcpFxP3OQ==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.4.0"
+
+remark-lint-ordered-list-marker-style@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-ordered-list-marker-style/-/remark-lint-ordered-list-marker-style-1.0.3.tgz#3fc6b9e254a641036e275269254365c42b7c62a1"
+  integrity sha512-24TmW1eUa/2JlwprZg9jJ8LKLxNGKnlKiI5YOhN4taUp2yv8daqlV9vR54yfn/ZZQh6EQvbIX0jeVY9NYgQUtw==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-ordered-list-marker-value@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/remark-lint-ordered-list-marker-value/-/remark-lint-ordered-list-marker-value-1.0.4.tgz#4651021892a787bcec7243317549ba51151e761f"
+  integrity sha512-ojRXhvysomFFf6C747Fo7s5CyhU56e+IKE7cV1couAu+COrajQEbL13If3P3fL9Ucw1yXw9srg0AQWjsEGHYCg==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-rule-style@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-rule-style/-/remark-lint-rule-style-1.0.3.tgz#859aef4d2e2180ecf9db56360497372b90a04aab"
+  integrity sha512-SJe7IFORYRdo8JUhMSdcTktVAUVNVp36YYl1ZD9CfHqQHWlFD+3vWYzJXOZfog/i+CyWf7Yi0WVYmQes+167dA==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-strong-marker@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-strong-marker/-/remark-lint-strong-marker-1.0.3.tgz#028e05b046ef260e8d40b342900061f1d09c8131"
+  integrity sha512-PFkH282dCwfRsVEw9IxbYbaZBY4UcTuT2SN+lA3R0cBeocWnOySVw8YEm4sv9JfV8BLcQA5gc4tj66/U3KCScw==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-table-cell-padding@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/remark-lint-table-cell-padding/-/remark-lint-table-cell-padding-1.0.4.tgz#be2b020a3985c414abb59cc5d88fda1993f8f2e8"
+  integrity sha512-AQWWtV1yca1PN27QaFRJbBK6Ro/bopv1XnVKxj/iMebhOU2D2FBJ8rXmMZXVMC3G9OB2WSzGgqH3nP6QY12LoA==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.4.0"
+
+remark-lint-table-pipe-alignment@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-table-pipe-alignment/-/remark-lint-table-pipe-alignment-1.0.3.tgz#8c6d0c93e417706a4083dc7fa279c537d4ed886c"
+  integrity sha512-5fhEMcKqNjK6S/y7cVG0+iVqhmhXFW+awIuN7vOBhmDbZ3HF9rCCy20XiHoaG6FzrPJ+zfkjK/QZAbq2Vf58HA==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-table-pipes@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-table-pipes/-/remark-lint-table-pipes-1.0.3.tgz#e34f91de4371f98c5e16701bd2302928468cbd8a"
+  integrity sha512-K9NnGZp6i0m/CaOH7ZT4Ymt2seyiRPcBIlNMMGXBm6gpy34KJDDxYqsNUrh+j7dR+Zg4rYAQLnr3BiSHvj+rbQ==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint-unordered-list-marker-style@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/remark-lint-unordered-list-marker-style/-/remark-lint-unordered-list-marker-style-1.0.3.tgz#72f9ec8cd54950753593b3b727fd28e48fa197d5"
+  integrity sha512-0nn/Yscy5ImO4fqByrk/Ua02UwGx8LRu+0kdCbkVz4IxPO5qxTEfyccUQZR71zTdMJp1d2OeqyD9XtMaO4X7Ww==
+  dependencies:
+    unified-lint-rule "^1.0.0"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
+    unist-util-visit "^1.1.1"
+
+remark-lint@^6.0.0:
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/remark-lint/-/remark-lint-6.0.5.tgz#fbb864d56bf83d2e5d23ea7e346ca5e36710fda3"
+  integrity sha512-o1I3ddm+KNsTxk60wWGI+p2yU1jB1gcm8jo2Sy6VhJ4ab2TrQIp1oQbp5xeLoFXYSh/NAqCpKjHkCM/BYpkFdQ==
+  dependencies:
+    remark-message-control "^4.0.0"
+
+remark-message-control@^4.0.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/remark-message-control/-/remark-message-control-4.2.0.tgz#184c4a69ce6c4c707a5633fa35b0ce3dbf81f22c"
+  integrity sha512-WXH2t5ljTyhsXlK1zPBLF3iPHbXl58R94phPMreS1xcHWBZJt6Oiu8RtNjy1poZFb3PqKnbYLJeR/CWcZ1bTFw==
+  dependencies:
+    mdast-comment-marker "^1.0.0"
+    unified-message-control "^1.0.0"
+    xtend "^4.0.1"
+
+remark-parse@^7.0.0:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/remark-parse/-/remark-parse-7.0.2.tgz#41e7170d9c1d96c3d32cf1109600a9ed50dba7cf"
+  integrity sha512-9+my0lQS80IQkYXsMA8Sg6m9QfXYJBnXjWYN5U+kFc5/n69t+XZVXU/ZBYr3cYH8FheEGf1v87rkFDhJ8bVgMA==
+  dependencies:
+    collapse-white-space "^1.0.2"
+    is-alphabetical "^1.0.0"
+    is-decimal "^1.0.0"
+    is-whitespace-character "^1.0.0"
+    is-word-character "^1.0.0"
+    markdown-escapes "^1.0.0"
+    parse-entities "^1.1.0"
+    repeat-string "^1.5.4"
+    state-toggle "^1.0.0"
+    trim "0.0.1"
+    trim-trailing-lines "^1.0.0"
+    unherit "^1.0.4"
+    unist-util-remove-position "^1.0.0"
+    vfile-location "^2.0.0"
+    xtend "^4.0.1"
+
+remark-preset-lint-markdown-style-guide@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/remark-preset-lint-markdown-style-guide/-/remark-preset-lint-markdown-style-guide-2.1.3.tgz#2d2e6a162cc18976a2be93f4ebd45835f2ff6c14"
+  integrity sha512-H/jSoLvTY8abUcB+7/062I2oHevlHcHdrfRMP2RMh19QA1wmARgNEn3tZfdBXFq1TpzhevGgb6VwSdOjdU8NOQ==
+  dependencies:
+    remark-lint "^6.0.0"
+    remark-lint-blockquote-indentation "^1.0.0"
+    remark-lint-code-block-style "^1.0.0"
+    remark-lint-definition-case "^1.0.0"
+    remark-lint-definition-spacing "^1.0.0"
+    remark-lint-emphasis-marker "^1.0.0"
+    remark-lint-fenced-code-flag "^1.0.0"
+    remark-lint-fenced-code-marker "^1.0.0"
+    remark-lint-file-extension "^1.0.0"
+    remark-lint-final-definition "^1.0.0"
+    remark-lint-hard-break-spaces "^1.0.0"
+    remark-lint-heading-increment "^1.0.0"
+    remark-lint-heading-style "^1.0.0"
+    remark-lint-link-title-style "^1.0.0"
+    remark-lint-list-item-content-indent "^1.0.0"
+    remark-lint-list-item-indent "^1.0.0"
+    remark-lint-list-item-spacing "^1.0.0"
+    remark-lint-maximum-heading-length "^1.0.0"
+    remark-lint-maximum-line-length "^1.0.0"
+    remark-lint-no-auto-link-without-protocol "^1.0.0"
+    remark-lint-no-blockquote-without-marker "^2.0.0"
+    remark-lint-no-consecutive-blank-lines "^1.0.0"
+    remark-lint-no-duplicate-headings "^1.0.0"
+    remark-lint-no-emphasis-as-heading "^1.0.0"
+    remark-lint-no-file-name-articles "^1.0.0"
+    remark-lint-no-file-name-consecutive-dashes "^1.0.0"
+    remark-lint-no-file-name-irregular-characters "^1.0.0"
+    remark-lint-no-file-name-mixed-case "^1.0.0"
+    remark-lint-no-file-name-outer-dashes "^1.0.0"
+    remark-lint-no-heading-punctuation "^1.0.0"
+    remark-lint-no-inline-padding "^1.0.0"
+    remark-lint-no-literal-urls "^1.0.0"
+    remark-lint-no-multiple-toplevel-headings "^1.0.0"
+    remark-lint-no-shell-dollars "^1.0.0"
+    remark-lint-no-shortcut-reference-image "^1.0.0"
+    remark-lint-no-shortcut-reference-link "^1.0.0"
+    remark-lint-no-table-indentation "^1.0.0"
+    remark-lint-ordered-list-marker-style "^1.0.0"
+    remark-lint-ordered-list-marker-value "^1.0.0"
+    remark-lint-rule-style "^1.0.0"
+    remark-lint-strong-marker "^1.0.0"
+    remark-lint-table-cell-padding "^1.0.0"
+    remark-lint-table-pipe-alignment "^1.0.0"
+    remark-lint-table-pipes "^1.0.0"
+    remark-lint-unordered-list-marker-style "^1.0.0"
+
+remark-stringify@^7.0.0:
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/remark-stringify/-/remark-stringify-7.0.4.tgz#3de1e3f93853288d3407da1cd44f2212321dd548"
+  integrity sha512-qck+8NeA1D0utk1ttKcWAoHRrJxERYQzkHDyn+pF5Z4whX1ug98uCNPPSeFgLSaNERRxnD6oxIug6DzZQth6Pg==
+  dependencies:
+    ccount "^1.0.0"
+    is-alphanumeric "^1.0.0"
+    is-decimal "^1.0.0"
+    is-whitespace-character "^1.0.0"
+    longest-streak "^2.0.1"
+    markdown-escapes "^1.0.0"
+    markdown-table "^1.1.0"
+    mdast-util-compact "^1.0.0"
+    parse-entities "^1.0.2"
+    repeat-string "^1.5.4"
+    state-toggle "^1.0.0"
+    stringify-entities "^2.0.0"
+    unherit "^1.0.4"
+    xtend "^4.0.1"
+
+remark@^11.0.2:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/remark/-/remark-11.0.2.tgz#12b90ea100ac3362b1976fa87a6e4e0ab5968202"
+  integrity sha512-bh+eJgn8wgmbHmIBOuwJFdTVRVpl3fcVP6HxmpPWO0ULGP9Qkh6INJh0N5Uy7GqlV7DQYGoqaKiEIpM5LLvJ8w==
+  dependencies:
+    remark-parse "^7.0.0"
+    remark-stringify "^7.0.0"
+    unified "^8.2.0"
+
+repeat-string@^1.5.4:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
+  integrity sha1-jcrkcOHIirwtYA//Sndihtp15jc=
+
+replace-ext@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/replace-ext/-/replace-ext-1.0.0.tgz#de63128373fcbf7c3ccfa4de5a480c45a67958eb"
+  integrity sha1-3mMSg3P8v3w8z6TeWkgMRaZ5WOs=
 
 requireindex@~1.1.0:
   version "1.1.0"
@@ -1331,10 +2108,22 @@ shebang-command@^1.2.0:
   dependencies:
     shebang-regex "^1.0.0"
 
+shebang-command@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-2.0.0.tgz#ccd0af4f8835fbdc265b82461aaf0c36663f34ea"
+  integrity sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==
+  dependencies:
+    shebang-regex "^3.0.0"
+
 shebang-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
+
+shebang-regex@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
+  integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
 signal-exit@^3.0.2:
   version "3.0.2"
@@ -1349,6 +2138,11 @@ slice-ansi@^2.1.0:
     ansi-styles "^3.2.0"
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
+
+sliced@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/sliced/-/sliced-1.0.1.tgz#0b3a662b5d04c3177b1926bea82b03f837a2ef41"
+  integrity sha1-CzpmK10Ewxd7GSa+qCsD+Dei70E=
 
 source-map@^0.5.0:
   version "0.5.7"
@@ -1385,6 +2179,11 @@ sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
+
+state-toggle@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/state-toggle/-/state-toggle-1.0.3.tgz#e123b16a88e143139b09c6852221bc9815917dfe"
+  integrity sha512-d/5Z4/2iiCnHw6Xzghyhb+GcmF89bxwgXG60wjIiZaxnymbyOmI8Hk4VqHXiVVp6u2ysaskFfXg3ekCj4WNftQ==
 
 string-width@^3.0.0:
   version "3.1.0"
@@ -1426,6 +2225,17 @@ string_decoder@^1.1.1:
   integrity sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==
   dependencies:
     safe-buffer "~5.2.0"
+
+stringify-entities@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/stringify-entities/-/stringify-entities-2.0.0.tgz#fa7ca6614b355fb6c28448140a20c4ede7462827"
+  integrity sha512-fqqhZzXyAM6pGD9lky/GOPq6V4X0SeTAFBl0iXb/BzOegl40gpf/bV3QQP7zULNYvjr6+Dx8SCaDULjVoOru0A==
+  dependencies:
+    character-entities-html4 "^1.0.0"
+    character-entities-legacy "^1.0.0"
+    is-alphanumerical "^1.0.0"
+    is-decimal "^1.0.2"
+    is-hexadecimal "^1.0.0"
 
 strip-ansi@^5.1.0, strip-ansi@^5.2.0:
   version "5.2.0"
@@ -1497,6 +2307,21 @@ to-fast-properties@^2.0.0:
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
   integrity sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=
 
+trim-trailing-lines@^1.0.0:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/trim-trailing-lines/-/trim-trailing-lines-1.1.3.tgz#7f0739881ff76657b7776e10874128004b625a94"
+  integrity sha512-4ku0mmjXifQcTVfYDfR5lpgV7zVqPg6zV9rdZmwOPqq0+Zq19xDqEgagqVbc4pOOShbncuAOIs59R3+3gcF3ZA==
+
+trim@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/trim/-/trim-0.0.1.tgz#5858547f6b290757ee95cccc666fb50084c460dd"
+  integrity sha1-WFhUf2spB1fulczMZm+1AITEYN0=
+
+trough@^1.0.0:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/trough/-/trough-1.0.5.tgz#b8b639cefad7d0bb2abd37d433ff8293efa5f406"
+  integrity sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==
+
 tslib@^1.9.0:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
@@ -1518,6 +2343,84 @@ type-fest@^0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
+
+unherit@^1.0.4:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/unherit/-/unherit-1.1.3.tgz#6c9b503f2b41b262330c80e91c8614abdaa69c22"
+  integrity sha512-Ft16BJcnapDKp0+J/rqFC3Rrk6Y/Ng4nzsC028k2jdDII/rdZ7Wd3pPT/6+vIIxRagwRc9K0IUX0Ra4fKvw+WQ==
+  dependencies:
+    inherits "^2.0.0"
+    xtend "^4.0.0"
+
+unified-lint-rule@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/unified-lint-rule/-/unified-lint-rule-1.0.4.tgz#be432d316db7ad801166041727b023ba18963e24"
+  integrity sha512-q9wY6S+d38xRAuWQVOMjBQYi7zGyKkY23ciNafB8JFVmDroyKjtytXHCg94JnhBCXrNqpfojo3+8D+gmF4zxJQ==
+  dependencies:
+    wrapped "^1.0.1"
+
+unified-message-control@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/unified-message-control/-/unified-message-control-1.0.4.tgz#a5e02c07112f78c6687b83a10392c2fba86dc09b"
+  integrity sha512-e1dEtN4Z/TvLn/qHm+xeZpzqhJTtfZusFErk336kkZVpqrJYiV9ptxq+SbRPFMlN0OkjDYHmVJ929KYjsMTo3g==
+  dependencies:
+    trim "0.0.1"
+    unist-util-visit "^1.0.0"
+    vfile-location "^2.0.0"
+
+unified@^8.2.0:
+  version "8.4.2"
+  resolved "https://registry.yarnpkg.com/unified/-/unified-8.4.2.tgz#13ad58b4a437faa2751a4a4c6a16f680c500fff1"
+  integrity sha512-JCrmN13jI4+h9UAyKEoGcDZV+i1E7BLFuG7OsaDvTXI5P0qhHX+vZO/kOhz9jn8HGENDKbwSeB0nVOg4gVStGA==
+  dependencies:
+    bail "^1.0.0"
+    extend "^3.0.0"
+    is-plain-obj "^2.0.0"
+    trough "^1.0.0"
+    vfile "^4.0.0"
+
+unist-util-generated@^1.1.0:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/unist-util-generated/-/unist-util-generated-1.1.5.tgz#1e903e68467931ebfaea386dae9ea253628acd42"
+  integrity sha512-1TC+NxQa4N9pNdayCYA1EGUOCAO0Le3fVp7Jzns6lnua/mYgwHo0tz5WUAfrdpNch1RZLHc61VZ1SDgrtNXLSw==
+
+unist-util-is@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-3.0.0.tgz#d9e84381c2468e82629e4a5be9d7d05a2dd324cd"
+  integrity sha512-sVZZX3+kspVNmLWBPAB6r+7D9ZgAFPNWm66f7YNb420RlQSbn+n8rG8dGZSkrER7ZIXGQYNm5pqC3v3HopH24A==
+
+unist-util-position@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/unist-util-position/-/unist-util-position-3.1.0.tgz#1c42ee6301f8d52f47d14f62bbdb796571fa2d47"
+  integrity sha512-w+PkwCbYSFw8vpgWD0v7zRCl1FpY3fjDSQ3/N/wNd9Ffa4gPi8+4keqt99N3XW6F99t/mUzp2xAhNmfKWp95QA==
+
+unist-util-remove-position@^1.0.0:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/unist-util-remove-position/-/unist-util-remove-position-1.1.4.tgz#ec037348b6102c897703eee6d0294ca4755a2020"
+  integrity sha512-tLqd653ArxJIPnKII6LMZwH+mb5q+n/GtXQZo6S6csPRs5zB0u79Yw8ouR3wTw8wxvdJFhpP6Y7jorWdCgLO0A==
+  dependencies:
+    unist-util-visit "^1.1.0"
+
+unist-util-stringify-position@^2.0.0:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/unist-util-stringify-position/-/unist-util-stringify-position-2.0.3.tgz#cce3bfa1cdf85ba7375d1d5b17bdc4cada9bd9da"
+  integrity sha512-3faScn5I+hy9VleOq/qNbAd6pAx7iH5jYBMS9I1HgQVijz/4mv5Bvw5iw1sC/90CODiKo81G/ps8AJrISn687g==
+  dependencies:
+    "@types/unist" "^2.0.2"
+
+unist-util-visit-parents@^2.0.0:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-2.1.2.tgz#25e43e55312166f3348cae6743588781d112c1e9"
+  integrity sha512-DyN5vD4NE3aSeB+PXYNKxzGsfocxp6asDc2XXE3b0ekO2BaRUpBicbbUygfSvYfUz1IkmjFR1YF7dPklraMZ2g==
+  dependencies:
+    unist-util-is "^3.0.0"
+
+unist-util-visit@^1.0.0, unist-util-visit@^1.1.0, unist-util-visit@^1.1.1, unist-util-visit@^1.4.0:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-1.4.1.tgz#4724aaa8486e6ee6e26d7ff3c8685960d560b1e3"
+  integrity sha512-AvGNk7Bb//EmJZyhtRUnNMEpId/AZ5Ph/KUpTI09WHQuDZHKovQ1oEv3mfmKpWKtoMzyMC4GLBm1Zy5k12fjIw==
+  dependencies:
+    unist-util-visit-parents "^2.0.0"
 
 uri-js@^4.2.2:
   version "4.2.2"
@@ -1544,6 +2447,30 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+vfile-location@^2.0.0, vfile-location@^2.0.1:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/vfile-location/-/vfile-location-2.0.6.tgz#8a274f39411b8719ea5728802e10d9e0dff1519e"
+  integrity sha512-sSFdyCP3G6Ka0CEmN83A2YCMKIieHx0EDaj5IDP4g1pa5ZJ4FJDvpO0WODLxo4LUX4oe52gmSCK7Jw4SBghqxA==
+
+vfile-message@^2.0.0:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/vfile-message/-/vfile-message-2.0.3.tgz#0dd4f6879fb240a8099b22bd3755536c92e59ba5"
+  integrity sha512-qQg/2z8qnnBHL0psXyF72kCjb9YioIynvyltuNKFaUhRtqTIcIMP3xnBaPzirVZNuBrUe1qwFciSx2yApa4byw==
+  dependencies:
+    "@types/unist" "^2.0.0"
+    unist-util-stringify-position "^2.0.0"
+
+vfile@^4.0.0:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/vfile/-/vfile-4.0.3.tgz#1e50b824fb5e5affd718e225c7bb1af6d97d4408"
+  integrity sha512-lREgT5sF05TQk68LO6APy0In+TkFGnFEgKChK2+PHIaTrFQ9oHCKXznZ7VILwgYVBcl0gv4lGATFZBLhi2kVQg==
+  dependencies:
+    "@types/unist" "^2.0.0"
+    is-buffer "^2.0.0"
+    replace-ext "1.0.0"
+    unist-util-stringify-position "^2.0.0"
+    vfile-message "^2.0.0"
+
 vue-eslint-parser@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-5.0.0.tgz#00f4e4da94ec974b821a26ff0ed0f7a78402b8a1"
@@ -1563,10 +2490,25 @@ which@^1.2.9:
   dependencies:
     isexe "^2.0.0"
 
+which@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/which/-/which-2.0.2.tgz#7c6a8dd0a636a0327e10b59c9286eee93f3f51b1"
+  integrity sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
+  dependencies:
+    isexe "^2.0.0"
+
 word-wrap@~1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
+
+wrapped@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/wrapped/-/wrapped-1.0.1.tgz#c783d9d807b273e9b01e851680a938c87c907242"
+  integrity sha1-x4PZ2Aeyc+mwHoUWgKk4yHyQckI=
+  dependencies:
+    co "3.1.0"
+    sliced "^1.0.1"
 
 wrappy@1:
   version "1.0.2"
@@ -1579,3 +2521,8 @@ write@1.0.3:
   integrity sha512-/lg70HAjtkUgWPVZhZcm+T4hkL8Zbtp1nFNOn3lRrxnlv50SRBv7cR7RqR+GMsd3hUXy9hWBo4CHTbFTcOYwig==
   dependencies:
     mkdirp "^0.5.1"
+
+xtend@^4.0.0, xtend@^4.0.1:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
+  integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
